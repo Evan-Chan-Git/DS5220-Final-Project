@@ -45,7 +45,7 @@ Next we create a heatmap (below) to further visualize the correlation of various
 python src/src2.py
 ```
 
-# Fitting and Assessing Models - Store Area & Items Available
+# Fitting and Assessing Models - Store Area on Items Available
 
 The first question we wanted answered in our project proposal was "Does the store area have an influence on the items available?".
 
@@ -63,7 +63,7 @@ The fit of the regression line of the model is represented in the figure (below)
 python src/src4.py
 ```
 
-# Fitting and Assessing Models - Daily Customer Count & Store Sales
+# Fitting and Assessing Models - Daily Customer Count on Store Sales
 
 The second question we wanted answered in our project prosal was "Does the daily customer count have an influence on the store sales?"
 
@@ -81,17 +81,21 @@ The fit of the regression line of the model is represented in the figure (below)
 python src/src6.py
 ```
 
-# Fitting and Assessing Models - Daily Customer Count & Store Sales
+# Fitting and Assessing Models - Store Aarea & Items Available on Daily Customer Count
 
 The third question we wanted answered in our project prosal was "Does the store area and the items available have an influence on daily customer count?"
+
+There was no visible linear relationship between Daily Customer Count and Store Sales, so we do not expect a linear model to hold.  We fit a linear regression model and then assessed the model fit by calculating the R squared score * 100 (-0.6291680857297921) which told us the model did not explain the data, possibly due to underfitting.  We then calculated the absolute error (13318.772007845078) which was very high and helped confirm that our model fails.
 
 ```
 python src/src7.py
 ```
 
-# Fitting and Assessing Models - Daily Customer Count & Store Sales
+# Fitting and Assessing Models - Daily Customer Count & Items Available on Store Sales
 
 The last question we wanted answered in our project prosal was "Does the daily customer count and the items available have an influence on store sales?"
+
+There was no visible linear relationship between Daily Customer Count and Store Sales, so we do not expect a linear model to hold.  We fit a linear regression model and then assessed the model fit by calculating the R squared score * 100 (-0.6291680857297921) which told us the model did not explain the data, possibly due to underfitting.  We then calculated the absolute error (13318.772007845078) which was very high and helped confirm that our model fails.
 
 ```
 python src/src8.py
