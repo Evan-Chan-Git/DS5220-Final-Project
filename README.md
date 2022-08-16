@@ -73,7 +73,7 @@ There was no visible linear relationship between Daily Customer Count and Store 
 python src/src5.py
 ```
 
-The fit of the regression line of the model is represented in the figure (below).  The model fails and does not represent a linear relationship between the variables.
+The fit of the regression line of the model is represented in the figure (below).  The model fails and does not answer the question or represent a linear relationship between the variables.
 
 <img src="figs/fig4.png" width="500">
 
