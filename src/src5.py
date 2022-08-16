@@ -21,9 +21,9 @@ lr.fit(X_train,y_train)
 pred = lr.predict(X_test)
 
 # assess whether model explains data using r2
-r2_1=(r2_score(y1_test,pred1))
+r2=(r2_score(y_test,pred))
 # print(r2*100)
 
 # assess whether model holds using the absolute error
-error = mean_absolute_error(y1_test, pred1)
+error = mean_absolute_error(y_test, pred)
 # print(error)
