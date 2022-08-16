@@ -85,6 +85,14 @@ python src/src6.py
 
 The third question we wanted answered in our project prosal was "Does the store area and the items available have an influence on daily customer count?"
 
+```
+python src/src7.py
+```
+
 # Fitting and Assessing Models - Daily Customer Count & Store Sales
 
 The last question we wanted answered in our project prosal was "Does the daily customer count and the items available have an influence on store sales?"
+
+```
+python src/src8.py
+```
