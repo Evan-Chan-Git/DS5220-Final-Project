@@ -45,15 +45,15 @@ Next we create a heatmap (below) to further visualize the correlation of various
 python src/src2.py
 ```
 
-# Fitting and Assesing Model
+# Fitting and Assessing Models
 
-Since we identified a possible relationship between Store Area and Items Available, we fit a linear regression model.
+Since we identified a possible relationship between Store Area and Items Available, we fit a linear regression model.  We then assessed the model fit by calculating the R squared score * 100 (99.75369279818469) which told us that the model explains 99% of the data which is to be expected.  We then calculated the absolute error (11.944631101516526) which helped confirm that our model is well explained and holds.
 
 ```
 python src/src3.py
 ```
 
-The fit of the regression line of the model is represented in the figure (below).
+The fit of the regression line of the model is represented in the figure (below).  The model confirms that an increase in Store Area leads to increase in Items Available and vice versa.
 
 <img src="figs/fig3.png" width="500">
 
