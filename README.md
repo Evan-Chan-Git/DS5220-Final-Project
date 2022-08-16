@@ -85,7 +85,7 @@ python src/src6.py
 
 The third question we wanted answered in our project prosal was "Does the store area and the items available have an influence on daily customer count?"
 
-We fit a multiple regression model and then assessed the model fit by calculating the R squared score * 100 (-0.6291680857297921) which told us the model did not explain the data, possibly due to underfitting.  We then calculated the absolute error (13318.772007845078) which was very high and helped confirm that our model fails.
+We fit a multiple regression model and then assessed the model fit by calculating the R squared score * 100 (-0.5234428168892302) which told us the model did not explain the data, possibly due to underfitting.  We then calculated the absolute error (240.74622374473486) which was very high and helped confirm that our model fails.
 
 ```
 python src/src7.py
