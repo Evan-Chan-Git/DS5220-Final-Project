@@ -29,6 +29,7 @@ dtype: int64
 Next we create a pairs plot (below) to understand the data struture.  The diagonal plots show us that the variables are normally distibuted and centrally concentrated. There is also a visible linear relationship between Store Area and Items available.
 
 <img src="figs/fig1.png" width="500">
+
 ```
 python src/src1.py
 ```
@@ -36,6 +37,7 @@ python src/src1.py
 Next we create a heatmap (below) to further visualize the correlation of various features.
 
 <img src="figs/fig2.png" width="500">
+
 ```
 python src/src2.py
 ```
