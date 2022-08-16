@@ -3,6 +3,9 @@
 # Intro
 The purpose of this repository is to contain the results of my DS5220 final project.  The instructions for this project can be found in the Project Guidlines folder.  The publicily available dataset used in this exploratory data analysis, [Supermarket store branches sales analysis](https://www.kaggle.com/datasets/surajjha101/stores-area-and-sales-data), can be found on [kaggle](https://www.kaggle.com/).
 
+The goals for our exploratory data analysis (EDA) involve gaining insight into the supermarket, a
+self-service  shop  that  is  ubiquitous  in  American  culture.    The  supermarkets  and  grocery  stores  industry accounts for the largest food retail channel in the United States, making the applications of answers to any of the following questions posed in our EDA essential and possibly profitable insights. 
+
 # Exploring the Data
 
 First we visualize the first five rows of the data to understand the features.
@@ -26,7 +29,7 @@ Store_Sales             0
 dtype: int64
 ```
 
-Next we create a pairs plot (below) to understand the data struture.  The diagonal plots show us that the variables are normally distibuted and centrally concentrated. There is also a visible linear relationship between Store Area and Items available.
+Next we create a pairs plot (below) to understand the data struture.  The diagonal plots show us that the variables are normally distibuted and centrally concentrated. It is possible to use clustering analysis here with Store Area, Items Available, Daily Customer Count, and Store Sales.  There is also a visible linear relationship between Store Area and Items available.  It is possible to fit a linear model here.
 
 <img src="figs/fig1.png" width="500">
 
@@ -34,10 +37,16 @@ Next we create a pairs plot (below) to understand the data struture.  The diagon
 python src/src1.py
 ```
 
-Next we create a heatmap (below) to further visualize the correlation of various features.
+Next we create a heatmap (below) to further visualize the correlation of various features.  The heatmap also confirms that Store Area is correlated to Items available.
 
 <img src="figs/fig2.png" width="500">
 
 ```
 python src/src2.py
 ```
+
+# First Model
+
+
+
+
