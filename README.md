@@ -80,3 +80,11 @@ The fit of the regression line of the model is represented in the figure (below)
 ```
 python src/src6.py
 ```
+
+# Fitting and Assessing Models - Daily Customer Count & Store Sales
+
+The second question we wanted answered in our project prosal was "Does the store area and the items available have an influence on daily customer count?"
+
+# Fitting and Assessing Models - Daily Customer Count & Store Sales
+
+The second question we wanted answered in our project prosal was "Does the daily customer count and the items available have an influence on store sales?"
