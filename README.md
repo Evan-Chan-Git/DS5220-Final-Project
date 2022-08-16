@@ -5,7 +5,17 @@ The purpose of this repository is to contain the results of my DS5220 final proj
 
 # Exploring the Data
 
-First we find out  if there are any empty cells in the dataset.
+First we visualize the first five rows of the data to understand the features.
+```
+	Store ID	Store_Area	Items_Available	Daily_Customer_Count	Store_Sales
+0	       1	      1659	           1961	                 530	      66490
+1	       2	      1461	           1752	                 210	      39820
+2	       3	      1340	           1609	                 720	      54010
+3	       4	      1451	           1748	                 620	      53730
+4	       5	      1770	           2111	                 450	      46620
+```
+
+Next we find out if there are any empty cells in the dataset.
 
 ```
 Store ID                0
