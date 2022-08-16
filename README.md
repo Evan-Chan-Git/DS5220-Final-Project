@@ -8,5 +8,14 @@
 Recreate this figure (above) using 
 
 ```
-python src/app1.py
+python src/src1.py
+```
+
+
+<img src="figs/fig2.png" width="500">
+
+Recreate this figure (above) using 
+
+```
+python src/src2.py
 ```
