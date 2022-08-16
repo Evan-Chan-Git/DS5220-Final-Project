@@ -45,8 +45,18 @@ Next we create a heatmap (below) to further visualize the correlation of various
 python src/src2.py
 ```
 
-# First Model
+# Fitting and Assesing Model
 
+Since we identified a possible relationship between Store Area and Items Available, we fit a linear regression model.
 
+```
+python src/src3.py
+```
 
+The fit of the regression line of the model is represented in the figure (below).
 
+<img src="figs/fig3.png" width="500">
+
+```
+python src/src4.py
+```
